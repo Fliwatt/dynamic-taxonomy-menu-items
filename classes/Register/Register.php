@@ -325,9 +325,9 @@ class DynTaxMI_Register_Register {
 	 * @return string  Options slug.
 	 */
 	private static function verify_option( $option ) {
-		$option = ( $option )
+		$option = (( $option )
 			? $option
-			: ( static::$option )
+			: ( static::$option ))
 				? static::$option
 				: null;
 		return $option;
